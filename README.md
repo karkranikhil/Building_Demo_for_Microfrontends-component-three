@@ -2,7 +2,7 @@
 
 ### 1) Create react app
     npm install -g create-react-app
-    create-react-app product-list
+    create-react-app cart
     cd product-list/
     npm start
     
@@ -12,8 +12,8 @@
     npm run start:prod
     
 ### 3) To run the app inside the Docker image
-    docker build . -t product-list
-    docker run -t -e PORT=8080 -p 8080:8080 product-list
+    docker build . -t cart
+    docker run -t -e PORT=8080 -p 8080:8080 cart
     
 ### 4) to setup heroku
     heroku create microfrontends-component-two
